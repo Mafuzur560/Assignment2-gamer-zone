@@ -2,7 +2,7 @@
 /* Mobile responsive  */
 @media screen and (max-width: 576px) {
     html{
-        font-size: 80%;
+        font-size: 42%;
    }
    /* nav section */
    nav{
@@ -13,6 +13,35 @@
         flex-direction: column;
         gap: 5rem;
    }
+
+   /* banner */
+   .banner-section{
+    flex-direction: column;
+    }
+    .banner-section .banner-img{
+        width: 100%;
+        order: 1;
+    }
+    .btn-primary{
+        justify-content: center;
+    }
+    .banner-section .banner-heading{
+        background-image: url('./images/Group\ 14.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 6rem 0px;
+        width: 100%;
+        order: 2;
+        text-align: center;
+   }
+   .banner-text p{
+    display: block;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+
+   }
 }
 
 
@@ -20,7 +49,7 @@
 /* tablet responsive */
 @media screen and (max-width: 768px){
     html{
-         font-size: 90%;
+         font-size: 80%;
     }
    
 
