@@ -27,7 +27,7 @@ nav{
 nav .nav-section{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 2.4rem 1.8rem;
+    padding: 1.8rem 1.8rem;
    display:flex;
    align-items: center;
    justify-content: space-between;
@@ -152,6 +152,62 @@ ul a{
     border: 2px solid #4EC5F7;
     box-shadow: 4px 4px 10px #353b4f;
     cursor: pointer;
+}
+
+/* we are gamers style */
+.gamers-container{
+    margin-top: 5%;
+    padding: 0% 6%;
+    display: flex;
+    align-items: center;
+}
+
+.gamers-img{
+    width: 60%;
+}
+
+.gamers-img img{
+    width: 100%;
+}
+
+.gamers-text{
+    width: 40%;
+    text-align: right;
+}
+.secondary-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.primary-text-small{
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.gamers-quote-heading {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #534C64;
+}
+
+.gamers-text p{
+    margin: 5% 0%;
+}
+
+.gamers-text h2:last-child{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#534C64;
+}
+
+.gamers-text button{
+    margin-bottom: 5%;
 }
 
 /* Online Games section start */

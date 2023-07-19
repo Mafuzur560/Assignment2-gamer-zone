@@ -51,6 +51,17 @@
         text-align: center;
    }
    /* Online Games section end */
+   .gamers-container,.instant-play-container,.online-game-container,.career-container{
+    flex-direction: column;
+    justify-content: center;
+    
+    }
+
+    .gamers-text,.instant-play-text,.online-game-text{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
 
