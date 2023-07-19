@@ -314,12 +314,6 @@ footer{
     gap: 1rem;
 }
 
-.footer-logo p{
-    color: #FFF;
-    text-align: center;
-    font-size: 3.4rem;
-    font-weight: 700;
-}
 
 .category{
     display:flex;
@@ -333,6 +327,14 @@ footer{
     font-weight: 600;
     padding: 3rem 0;
 }
+.copyright p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 .socle{
     display:flex;
     align-items: center;
@@ -341,6 +343,12 @@ footer{
     flex-wrap: wrap;
     font-size: 2.2rem;
     color: #FFF;
+}
+.footer-logo p{
+    color: #FFF;
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 700;
 }
 .Privacy-Policy1{
     display:flex;
@@ -356,12 +364,5 @@ footer{
     padding: 3rem 0;
 }
 
-.copyright p{
-    color: rgba(255, 255, 255, 0.60);
-    text-align: center;
-    font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
+
 /* footer section end */
