@@ -62,7 +62,26 @@
         margin: 0 auto;
         text-align: center;
     }
-     /* suggestion section */
+    /* Play Instantly section start  */
+    .play-instantly-section{
+        flex-direction: column;
+        gap: 4rem;
+   }
+
+   .play-instantly-section .play-instantly-title{
+        width: 100%;
+   }
+   .play-instantly-section .play-instantly-images{
+        width: 100%;
+   }
+   .short-images{
+    position: absolute;
+    bottom: -10%;
+    left: -45%;
+    }
+   /* Play Instantly section end  */
+
+    /* suggestion section */
          .suggestion-section{
              padding-top: 2.4rem;
             gap: 1.5rem;
@@ -76,6 +95,14 @@
     html{
          font-size: 80%;
     }
+    .short-images{
+        position: absolute;
+        bottom: -10%;
+        left: -60%;
+        }
+        .play-instantly-images > img{
+            width: 100%;
+        }
    
 
 }
