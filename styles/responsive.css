@@ -42,6 +42,15 @@
     text-align: center;
 
    }
+    /* Online Games section start */
+    .online-games-section .online-game-images{
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+   }
+   .game-card-img p{
+        text-align: center;
+   }
+   /* Online Games section end */
 }
 
 
