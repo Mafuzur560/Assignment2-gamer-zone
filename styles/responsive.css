@@ -1,0 +1,27 @@
+
+/* Mobile responsive  */
+@media screen and (max-width: 576px) {
+    html{
+        font-size: 80%;
+   }
+   /* nav section */
+   nav{
+        box-shadow: none;
+        padding-top: 4.5rem;
+   }
+   nav .nav-section, nav ul{
+        flex-direction: column;
+        gap: 5rem;
+   }
+}
+
+
+
+/* tablet responsive */
+@media screen and (max-width: 768px){
+    html{
+         font-size: 90%;
+    }
+   
+
+}
