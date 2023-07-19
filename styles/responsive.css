@@ -74,6 +74,9 @@
    .play-instantly-section .play-instantly-images{
         width: 100%;
    }
+   .play-instantly-title p,.play-instantly-title h2{
+    text-align: center;
+   }
    .short-images{
     position: absolute;
     bottom: -10%;
