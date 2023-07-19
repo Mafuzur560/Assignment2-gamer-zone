@@ -38,10 +38,14 @@ nav .nav-section{
     align-items: center;
     justify-content: center;
 }
+
+.span-g{
+    color: #e893cf;
+}
 .logo p{
     font-size: 2.5rem;
-    font-weight: 700;
     color: #0B0223;
+    font-weight: 700;
 }
 .span-g{
     color: #e893cf;
@@ -64,8 +68,8 @@ ul a{
     border-radius: 8px;
     border: 0px;
     background: rgba(11, 2, 35, 0.10);
-    padding: 7px 15px;
     font-weight: 700;
+    padding: 7px 15px;
     color: #3C354F;
     text-align: center;
     align-items: center;
