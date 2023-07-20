@@ -243,6 +243,7 @@ ul a{
 }
 .overlay-container:hover .overlay{
     height: 100%;
+    cursor: pointer;
 }
 .overlay p{
     position: absolute;
@@ -450,6 +451,9 @@ footer{
     text-align: center;
     font-size: 3.4rem;
     font-weight: 700;
+}
+.socle-child:hover{
+    cursor: pointer;
 }
 .Privacy-Policy1{
     display:flex;
