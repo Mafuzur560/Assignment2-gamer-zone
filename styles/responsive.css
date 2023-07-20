@@ -62,6 +62,9 @@
         margin: 0 auto;
         text-align: center;
     }
+    .overlay i{
+     margin-top: 40%;
+ }
     /* Play Instantly section start  */
     .play-instantly-section{
         flex-direction: column;
